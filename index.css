@@ -103,7 +103,7 @@ nav {
 footer {
     padding-top: 0.1%;
     padding-bottom: 0.1%;
-    margin-top: 5%;
+    margin-top: 60px;
     margin-bottom: 0%;
     background-color: #36A320;
     color: #fff;
@@ -140,7 +140,7 @@ main {
 }
 
 .container {
-    margin-top: 1.5%;
+    margin-top: 35px;
     position: relative;
     width: 30%;
     height: 300px;
