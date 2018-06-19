@@ -112,7 +112,7 @@ footer {
     align-items: center;
 }
 
-footer div {
+footer #made {
     display: flex;
 }
 
