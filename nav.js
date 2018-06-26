@@ -1,9 +1,3 @@
-"use strict";
-(function () {
-    window.onload = function () {
-        $("open").onclick = openMenu;
-    };
-    
     function openMenu () {
         $("myNav").style.width = "100%";
         toggleElements();
@@ -24,5 +18,3 @@
     function $ (id) {
         return document.getElementById(id);
     }
-    
-}) ();
