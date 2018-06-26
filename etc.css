@@ -112,7 +112,7 @@ footer {
     align-items: center;
 }
 
-footer div {
+footer #made {
     display: flex;
 }
 
@@ -125,7 +125,6 @@ footer div {
 
 #socials img {
     height: 100%;
-    width: auto;
     padding-left: 30px;
 }
 
