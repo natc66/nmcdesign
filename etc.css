@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+
+@font-face {
+    font-family: shoreline-script;
+    src: url(shorelines.otf);
+}
+
+p {
+    font-size: 40px;
+    font-family: "source sans pro", sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "source sans pro", sans-serif;
+}
+
+h2 {
+    font-family: shoreline-script;
+    font-size: 40px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: rgb(54,163,32);
+    background-color: rgba(54,163,32, 0.9);
+}
+
+.menu-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu a {
+    font-family: "source sans pro", sans-serif;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 40px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu a:hover, .menu a:focus {
+    font-weight: 700;
+}
+
+.menu #close {
+    position: absolute;
+    top: 0px;
+    right: 2%;
+    font-size: 100px;
+}
+
+@media screen and (max-height: 450px) {
+  .menu a {font-size: 20px}
+  .menu #close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+#top img {
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 1%;
+    width: 180px;
+    height: 100px;
+}
+
+#open {
+    margin-right: 2%;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+}
+
+footer {
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    background-color: #36A320;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div {
+    display: flex;
+}
+
+#heart {
+    padding-top: 50px;
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+}
+
+#socials img {
+    height: 100%;
+    width: auto;
+    padding-left: 30px;
+}
+
+#socials {
+    height: 50px;
+}
+
+
+.hide {
+    display: none;
+}
+
+article {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+article img {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    width: 80%;
+}
+
+h3 {
+    font-size: 18px;
+    font-family: "source sans pro", sans-serif;
+    text-align: center;
+    color: black;
+    font-weight: 400;
+}
+
+main #tabs {
+    display: flex;
+    text-align: center;
+    font-family: "source sans pro", sans-serif;
+    margin-top: 2%;
+}
+
+#tabs div {
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 40px;
+}
+.not {
+    background-color: #36A320;
+    color: white;
+}
+
+.not:hover {
+    cursor: pointer;
+    background-color: rgb(112,112,112);
+    background-color: rgba(54,163,32, 0.5);
+}
+
+.selected:hover {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: white;
+    color: #36A320;
+    border-style: solid;
+    border-color: #707070;
+    border-width: 1px 0px 1px 0px;
+}
