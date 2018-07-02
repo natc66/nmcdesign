@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>home</title>
+            <link type="text/css" href=project.css rel="stylesheet" />
+            <script src="nav.js"></script>
+            <script src="index.js"></script>
+        </head>
+        <body>
+            <nav>
+                <a href="index.html"><img id="logo" src="icons/logo.png" alt="NMC Design Logo" /></a>
+                <img id="open" src="icons/hamburger.png" alt="Hamburger Menu" />
+                <div id="myNav" class="menu">
+                    <div id="top">
+                        <img src="icons/nmc.png" alt="natalie m chow" />
+                        <a href="javascript:void(0)" id="close">&times;</a>
+                    </div>
+                    <div class="menu-content">
+                        <a href="index.html">Home</a>
+                        <a href="etc.html">Etc</a>
+                        <a href="about.html">About</a>
+                        <a href="experience.html">Experience</a>
+                    </div>
+                </div>
+            </nav>
+            <main>
+                <h1>Accessify UI Design</h1>
+                <h2>The Overview</h2>
+                <section>
+                    <p>
+                        October 2017 <br />
+                        Completed for Dubhacks 2017 <br />
+                        Role: UX &amp; Visual Designer
+                    </p>
+                </section>
+                <h2>The Problem</h2>
+                <section>
+                    <p>
+                        Students with disabilities at the University of Washington 
+                        often download multiple google chrome extensions just to 
+                        make websites usable. This is true across a variety of 
+                        disabilities and includes adding alternative (alt) text to 
+                        images, changing fonts, and screen readers.
+                    </p>
+                </section>
+                <h2>The Solution</h2>
+                <section>
+                    <div class="column">
+                        <p>
+                            Our team created a google chrome extension and API. Together, 
+                            these address multiple issues that those with disabilities 
+                            experience while on websites. It requires the user to only 
+                            download one google chrome extension and pick and choose 
+                            which settings, or modifications they wish to utilize.
+                        </p>
+                        <p>
+                            The google chrome extension allows users to modify 
+                            different websites. It currently does not utilize the 
+                            settings page and simply addresses all disabilities 
+                            at the same time. Some of the aspects of websites it 
+                            addresses is;
+                        </p>
+                        <ul>
+                            <li>Changing the background to white</li>
+                            <li>Changing the text to black</li>
+                            <li>Changing the text to Verdana</li>
+                            <li>Adding more space between lines of text</li>
+                            <li>If a paragraph is too long, summarizing it</li>
+                            <li>Adding alt text to images without alt text</li>
+                        </ul>
+                        <p>
+                            The API takes large bodies of text and summarizes 
+                            them by using the first, last, and another important 
+                            sentence from a paragraph. The API also takes images 
+                            without alt text and provides alt text for them using 
+                            the Microsoft Vision API.
+                        </p>
+                        <p>
+                            The code for this project, can be found <a 
+                            href="https://github.com/evanfrawley/accessify" 
+                            target="_blank">here</a>.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <iframe frameborder="0" class="juxtapose" width="100%" 
+                        height="494.00000000000006" 
+                        src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=0ceeb2e6-7d8b-11e8-b263-0edaf8f81e27">
+                        </iframe>
+                        <iframe frameborder="0" class="juxtapose" width="100%" 
+                        height="494.00000000000006" 
+                        src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=402c2b34-7d8b-11e8-b263-0edaf8f81e27">
+                        </iframe>
+                    </div>
+                </section>
+                <h2>The Process</h2>
+                <section>
+                    <p>
+                        Over 24 hours our team went through research, ideation, coding, and presenting.
+                    </p>
+                </section>
+                <h3>Research</h3>
+                <section>
+                    <div class="column">
+                        <p>
+                            A friend who works with disabled students suggested we 
+                            pursue a project around accessibility. One of the main 
+                            issues they brought up was that students were downloading 
+                            multiple google chrome extensions just to make websites 
+                            usable. We decided that we wanted to create a google 
+                            chrome extension that made websites usable for a variety 
+                            of different users. However, we weren't sure what made 
+                            websites accessible.
+                        </p>
+                        <p>
+                            Specifically, our team was interested in investigating 
+                            the overall stickiness of the site. We wanted to find 
+                            whether Eventbrite encourages users to stay on the site 
+                            and browse, and what could be done to improve the overall 
+                            stickiness of the site.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <a href="https://github.com/UKHomeOffice/posters/tree/master/accessibility" 
+                        target="_blank">
+                            <img src="accessify/users.png" alt="6 different user disability profiles" />
+                        </a>
+                    </div>
+                    <p>
+                        We then took this research and created two personas, 
+                        Emily Scott a dyslexic high school student, and Addison 
+                        Earl a blind college student.
+                    </p>
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ4qDHAHqAa6ahH6moVbov3GMrJDpxfwjzG0zXQRu081-fH0N6KWETN1BOFWffmDfjHs-WVeufdECGL/embed?start=true&loop=true&delayms=7000" 
+                    frameborder="0" width="960" height="569" allowfullscreen="true" 
+                    mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </section>
+                    <h3>Ideation</h3>
+                    <section>
+                        <div class="column">
+                            <p>
+                                We decided that we wanted to create a google chrome extension 
+                                because we felt it would be most convenient to our user base. 
+                                We also decided that this chrome extension should be able to 
+                                address issues for all of the different disabilities. In order 
+                                to do this, we decided to create profiles with pre-set 
+                                settings for different users based on the research. We 
+                                identified which do’s and don’ts from the research we could 
+                                address. The other designer and I then moved to sketching 
+                                the information flow and the settings page layout while the 
+                                developers were working on the API and how to alter the html 
+                                of different sites.
+                            </p>
+                            <p>
+                                After we sketched out the information flow and 
+                                had established a basis for the design of the 
+                                settings page, we started working on the prototype 
+                                in Adobe XD and Adobe Illustrator. We struggled 
+                                with color choices for a long time because we were 
+                                trying to balance aesthetic with accessibility. 
+                                This meant we had to have contrast between the 
+                                background and text, no bright colors, and still 
+                                have it look nice. We eventually decided on an 
+                                orange and kept the color palette simple with only 
+                                orange, white, and dark grey. Other than that, most 
+                                design choices were simple. We were sure we wanted 
+                                large buttons for those with physical disabilities, 
+                                and that we wanted short but informational descriptions 
+                                for those with dyslexia.
+                            </p>
+                        </div>
+                        <div class="column">
+                            <img src="accessify/settings.png" alt="the protoyped settings page">
+                        </div>
+                    </section>
+                    <section>
+                    <h3>Coding</h3>
+                    <p>
+                        After completing our prototype, our team moved towards 
+                        coding everything and presenting our project. I did not 
+                        participate in the coding of our project, and instead 
+                        focused on the slide deck, the presentation, the write up, 
+                        and submitting our project.
+                    </p>
+                    <p>
+                        The other members of my team worked on finishing the API, 
+                        the google chrome extension, and the settings page. 
+                    </p>
+                    </section>
+                    <h3>Presentation</h3>
+                    <section>
+                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRFtQKXWnuWi8HqJCvP109-CAYlMmAzLnGJvF4bu3DPG5D_foR2eoddbqi_scyoCscg1vM7L1fBD_rX/embed?start=true&loop=true&delayms=7000" 
+                    frameborder="0" width="960" height="569" allowfullscreen="true" 
+                    mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                </section>
+                <h2>Reflection</h2>
+                <section>
+                    <p>
+                        I enjoyed the topic of this project, and it was interesting 
+                        working with developers, as I haven't had much experience 
+                        working with other disciplines. In the beginning, Oorja, 
+                        the other UX designer, and I had to convince the rest of 
+                        our team to start with research and the user, rather than 
+                        starting with what technology was interesting. This took 
+                        awhile, but when we showed them the research we had found, 
+                        they started to understand and got excited.
+                    </p>
+                    <p>
+                        Currently, the google chrome extension does not utilize 
+                        the settings page. Instead, it has all of the settings 
+                        turned on, all the time. If we had more time, we'd have 
+                        linked the setting page to the program, so users can pick 
+                        and choose which modifications they need or don't need.
+                    </p>
+                </section>
+                <h2>Team Members</h2>
+                <section id="team">
+                    <a href="https://evan.gg/" target="_blank">
+                        <div>
+                            <img src="team/Evan.jpg" alt="Evan Frawley" />
+                            <p>
+                                Evan Frawley
+                            </p>
+                            <p>
+                                Developer
+                            </p>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/helena-merk-4625229a/" target="_blank">
+                        <div>
+                            <img src="team/Helena.jpg" alt="Helena Merk" />
+                            <p>
+                                Helena Merk
+                            </p>
+                            <p>
+                                Developer
+                            </p>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ishan-saksena-428269107/" target="_blank">
+                        <div>
+                            <img src="team/Ishan.jpg" alt="Ishan Saksena" />
+                            <p>
+                                Ishan Saksena
+                            </p>
+                            <p>
+                                Developer
+                            </p>
+                        </div>
+                    </a>
+                    <a href="http://www.oorjachowdhary.com/" target="_blank">
+                        <div>
+                            <img src="team/Oorja.jpg" alt="Oorja Chowdhary" />
+                            <p>
+                                Oorja Chowdhary
+                            </p>
+                            <p>
+                                UX Designer &amp; Developer
+                            </p>
+                        </div>
+                    </a>
+                    </section>
+                <h2>More Projects</h2>
+                <section id="projects">
+                    <div class="container">
+                        <a href="eventbrite.html">
+                            <img src="covers/eventbrite.png" alt="Eventbrite" class="image">
+                            <div class="overlay">
+                                <h1 class="text">Eventbrite Usability Testing</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="container">
+                        <a href="emote.html">
+                        <img src="covers/emoteCover.png" alt="Emote" class="image">
+                        <div class="overlay">
+                            <h1 class="text">Emote UI Design</h1>
+                        </div>
+                        </a>
+                    </div>
+                </section>
+                
+            </main>
+            <footer id="footer">
+                <p id="footer">Hello you're @ <strong>Accessify</strong></p>
+                <div id="made">
+                    <img id="heart" src="icons/heart.png" alt="heart" />
+                    <div id="cursive">made with love</div>
+                </div>
+                <div id="socials">
+                    <a href="mailto:natalie.michelle.chow@gmail.com" target="_blank"> <img src="icons/email.png" alt="email" /> </a>
+                    <a href="https://www.linkedin.com/in/nmcdesign/" target="_blank"> <img src="icons/Linkedin.png" alt="linkedin" /> </a>
+                    <a href="https://www.instagram.com/natc66/" target="_blank"> <img src="icons/instagram.png" alt="instagram" /> </a>
+                </div>
+            </footer>
+        </body>
+    </html>
