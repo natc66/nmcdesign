@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+
+@font-face {
+    font-family: shoreline-script;
+    src: url(shorelines.otf);
+}
+
+#footer {
+    font-size: 40px;
+    font-family: "source sans pro", sans-serif;
+}
+
+p, ul {
+    font-size: 24px;
+    font-family: "source sans pro", sans-serif;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 1.5%;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "source sans pro", sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+#cursive {
+    font-family: shoreline-script;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: #707070;
+}
+
+a:hover {
+    color: #EF180F;
+}
+
+.caption {
+    font-size: 18px;
+    font-family: "source sans pro", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: "source sans pro", sans-serif;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 700;
+    font-family: shoreline-script, cursive;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 24px;
+    font-family: "source sans pro", sans-serif;
+    color: black;
+    font-weight: 400;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-top: 1%;
+}
+
+h4:hover {
+    color: #EF180F;
+    cursor: pointer;
+}
+
+.selected {
+    color: #EF180F
+}
+
+.grey {
+    color: #707070;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.hide {
+    display: none;
+}
+
+.menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: rgb(54,163,32);
+    background-color: rgba(54,163,32, 0.9);
+}
+
+.menu-content {
+    position: relative;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu a {
+    font-family: "source sans pro", sans-serif;
+    padding: 8px;
+    text-decoration: none;
+    font-size: 40px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.menu a:hover, .menu a:focus {
+    font-weight: 700;
+}
+
+.menu #close {
+    position: absolute;
+    top: 0px;
+    right: 2%;
+    font-size: 100px;
+}
+
+@media screen and (max-height: 450px) {
+  .menu a {font-size: 20px}
+  .menu #close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+#top img {
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 1%;
+    width: 180px;
+    height: 100px;
+}
+
+#open {
+    margin-right: 2%;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+}
+
+footer {
+    padding-top: 0.1%;
+    padding-bottom: 0.1%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    background-color: #36A320;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer #made {
+    display: flex;
+    color: white;
+}
+
+#heart {
+    padding-top: 50px;
+    height: 50px;
+    width: auto;
+    padding-right: 20px;
+}
+
+#socials img {
+    height: 100%;
+    padding-left: 30px;
+}
+
+#socials {
+    height: 50px;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 25%;
+    border-right-color: #707070;
+    border-right-style: solid;
+    border-right-width: 1px;
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+article {
+    padding-left: 5%;
+    padding-right: 10%;
+    width: 100%;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.columns div {
+    width: 100%;
+}
+
+#download {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+  border: solid #878787 1px;
+  border-radius: 10px;
+  color: #36A320;
+  padding: 12px 32px;
+  text-align: center;
+  font-size: 16px;
+  transition: 0.5s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+button:hover {
+    background-color: #36A320;
+    color: white;
+}
