@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>home</title>
+            <link type="text/css" href=project.css rel="stylesheet" />
+            <script src="nav.js"></script>
+            <script src="index.js"></script>
+        </head>
+        <body>
+            <nav>
+                <a href="index.html"><img id="logo" src="icons/logo.png" alt="NMC Design Logo" /></a>
+                <img id="open" src="icons/hamburger.png" alt="Hamburger Menu" />
+                <div id="myNav" class="menu">
+                    <div id="top">
+                        <img src="icons/nmc.png" alt="natalie m chow" />
+                        <a href="javascript:void(0)" id="close">&times;</a>
+                    </div>
+                    <div class="menu-content">
+                        <a href="index.html">Home</a>
+                        <a href="etc.html">Etc</a>
+                        <a href="about.html">About</a>
+                        <a href="experience.html">Experience</a>
+                    </div>
+                </div>
+            </nav>
+            <main>
+                <h1>Mustangular UI Design</h1>
+                <h2>The Overview</h2>
+                <section>
+                <p>April - May 2018 <br />Completed for Pacific Northwest Seismic Network<br />Role: UX Designer</p>
+                </section>
+                <h2>The Problem</h2>
+                <section>
+                <div class="column">
+                <p>
+                    The <a href="http://ds.iris.edu/mustang/mustangular/" target="_blank">current version</a> of Mustangular (1.0) has a functional, but imperfect user interface. 
+                    Mustangular 2.0 is currently being developed, and the team wanted an updated user interface.
+                    Some issues that the current interface has include;
+                </p>
+                <ul>
+                    <li>No detailed information available for seismic stations</li>
+                    <li>Cannot filter information by channels</li>
+                    <li>Cannot choose more than one metric in the initial query</li>
+                    <li>Cannot easily edit the query without going back to the initial form</li>
+                    <li>The side menu forces users to scroll down to see all of the key</li>
+                </ul>
+                <p>
+                    These issues stem from both UI issues and missing functionality.
+                </p>
+                </div>
+                <div class="column">
+                    <img src="mustangular/currentQuery.png" alt="mustangular 1.0's initial query" />
+                    <img src="mustangular/currentMenu.png" alt="mustangular 1.0's Menu" />
+                </div>
+                </section>
+                <h2>The Solution</h2>
+                <section>
+                    <div class="column">
+                    <p>
+                        I created a prototype of a web application, using Adobe Experience Design. 
+                        The key has been separated from the menu, so it&rsquo;s able to grow and shrink as 
+                        the user changes the number of bins they wish to see. The informational bar at the 
+                        top allows users to keep track of the entered information and edit it if they want to. 
+                        Users are also able to click on a seismic station and bring up more details and a graph.
+                    </p>
+                    </div>
+                    <div class="column">
+                        <img src="mustangular/menuO.png" alt="Menu opened" />
+                    </div>
+                    <div class="mustangular">
+                    <img src="mustangular/query.png" alt="initial query" />
+                    <img src="mustangular/popup.png" alt="station popup" />
+                    </div>
+                </section>
+                <h2>The Process</h2>
+                <section>
+                    <p>
+                        Over 3 weeks I conducted initial research and ideation, and then worked on the design.
+                    </p>
+                </section>
+                <h3>Research</h3>
+                <section>
+                    <div class="column">
+                        <p>
+                            The developer working on this project had mocked up some screens as an initial 
+                            idea of what she wanted Mustangular 2.0 to look like. There were four screens 
+                            total and they included;
+                        </p>
+                        <ul>
+                           <li>Main menu collapsed &amp; extended</li>
+                           <li>Initial query entry</li>
+                           <li>Station graph popup</li>
+                        </ul>
+                        <p>
+                            I also looked at what Mustangular 1.0 currently looks like and what it can and can't do.
+                            I had to familiarize myself with this application because prior to this project I had not
+                            used mustangular and was very unfamiliar with it.
+                        </p>
+                        <p>
+                            I asked questions in order to understand the developer's intentions for the screen mockups
+                            so that I could better understand what she wanted from this design. We talked a bit about
+                            the bar at the top that has about, info, edit, and share. I wanted to understand what she wanted
+                            to happen when a user clicked on one of these tabs or buttons.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <img src="mustangular/mockup2.png" alt="Main Page Mockup" />
+                        <img src="mustangular/mockup1.png" alt="Station popup mockup" />
+                    </div>
+                </section>
+                <h3>Design</h3>
+                <section>
+                    <div class="column">
+                        <p>
+                            I started out by creating the main menu. It had a two pane collapsible menu, that had an 
+                            info tab and an about tab. About 3 weeks after I created the initial design, the developer 
+                            was looking over the designs and suggested we take a second look at it, which I agreed with. 
+                            Looking over it again, the spacing and sizing of a lot of elements didn&rsquo;t make sense. 
+                            She suggested that we try a one panel collapsible menu, with an informational bar at the top. 
+                            After a couple of iterations we settled on our final design for the main menu.
+                        </p>
+                        <p>
+                            I designed the popup for the specific station with details and graph. I made sure to include 
+                            all of the relevant information, including the station name, dates, and network. I also wanted 
+                            to be sure that the users could choose what channels they were viewing data for.
+                        </p>
+                    </div>
+                    <div class="column">
+                        <img src="mustangular/iMenuO.png" alt="Initial main menu extended" />
+                        <img src="mustangular/iMenu1.png" alt="Iterated main menu extended" />
+                    </div>
+                    <p>
+                        I also designed the initial query form, and the form used for editing the query. I wanted to have 
+                        the initial query form to seem more a part of the main menu and map, so I had the form over a 
+                        blurred map. The form used for editing the query has the same layout of the initial query form, 
+                        so there is consistency. The difference is the background, instead of a blurred map, it is the 
+                        map and the main menu that is blurred. Whatever metrics were previously selected are populated in 
+                        this menu.
+                    </p>
+                </section>
+                <h2>Team Members</h2>
+                <section id="team">
+                    <a href="https://www.linkedin.com/in/kyla-marczewski-7782b2156/" target="_blank">
+                        <div>
+                            <img src="team/kyla.jpeg" alt="Kyla Marczewski" />
+                            <p>
+                                Kyla Marczewski
+                            </p>
+                            <p>
+                                Developer
+                            </p>
+                        </div>
+                    </a>
+                </section>
+                <h2>More Projects</h2>
+                <section id="projects">
+                    <div class="container">
+                    <a href="squac.html">
+                    <img src="covers/squacCover.png" alt="SQUAC" class="image">
+                    <div class="overlay">
+                        <h1 class="text">SQUAC UI Design</h1>
+                    </div>
+                    </a>
+                </div>
+                <div class="container">
+                    <a href="eventbrite.html">
+                        <img src="covers/eventbrite.png" alt="Eventbrite" class="image">
+                        <div class="overlay">
+                            <h1 class="text">Eventbrite Usability Testing</h1>
+                        </div>
+                    </a>
+                </div>
+                </section>
+            </main>
+            
+            <footer id="footer">
+                <p>Hello you&rsquo;re @ <strong>Mustangular</strong></p>
+                <div id="made">
+                    <img id="heart" src="icons/heart.png" alt="heart" />
+                    <div id="cursive">made with love</div>
+                </div>
+                <div id="socials">
+                    <a href="mailto:natalie.michelle.chow@gmail.com" target="_blank"> <img src="icons/email.png" alt="email" /> </a>
+                    <a href="https://www.linkedin.com/in/nmcdesign/" target="_blank"> <img src="icons/Linkedin.png" alt="linkedin" /> </a>
+                    <a href="https://www.instagram.com/natc66/" target="_blank"> <img src="icons/instagram.png" alt="instagram" /> </a>
+                </div>
+            </footer>
+        </body>
+    </html>
