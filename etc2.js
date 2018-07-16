@@ -10,6 +10,7 @@
     
     function getImages () {
         let url = "etc.php";
+        console.log("test");
         fetch(url, {credentials: "include"})
             .then(checkStatus)
             .then(JSON.parse)
