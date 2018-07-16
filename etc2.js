@@ -11,7 +11,7 @@
     function getImages () {
         let url = "etc.php";
         console.log("test");
-        fetch(url, {credentials: "include"})
+        fetch(url)
             .then(checkStatus)
             .then(JSON.parse)
             .then(loadImages)
