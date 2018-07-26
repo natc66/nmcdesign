@@ -137,13 +137,13 @@ footer #made {
     display: none;
 }
 
-article {
+main {
     display: flex;
     justify-content: space-around;
     height: 100%;
 }
 
-article img {
+section img {
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
