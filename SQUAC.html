@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>home</title>
+            <link type="text/css" href=project.css rel="stylesheet" />
+            <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+            <script src="nav.js"></script>
+            <script src="index.js"></script>
+        </head>
+        <body>
+            <nav>
+                <a href="index.html"><img id="logo" src="icons/logo.png" alt="NMC Design Logo" /></a>
+                <img id="open" src="icons/hamburger.png" alt="Hamburger Menu" />
+                <div id="myNav" class="menu">
+                    <div id="top">
+                        <img src="icons/nmc.png" alt="natalie m chow" />
+                        <a href="javascript:void(0)" id="close">&times;</a>
+                    </div>
+                    <div class="menu-content">
+                        <a href="index.html">Home</a>
+                        <a href="etc.html">Etc</a>
+                        <a href="about.html">About</a>
+                        <a href="experience.html">Experience</a>
+                    </div>
+                </div>
+            </nav>
+            <main>
+                <h1>SQUAC UI Design</h1>
+                <h2>The Overview</h2>
+                <section>
+                    <p>
+                        March - May 2018 <br />Completed for Pacific Northwest 
+                        Seismic Network <br />Role: UX Designer &amp; Visual Designer
+                    </p>
+                </section>
+                <h2>The Problem</h2>
+                <section>
+                    <p>
+                        The Pacific Northwest Seismic Network (PNSN), and many other seismic networks, 
+                        have access to a lot of important information that comes in from their seismic 
+                        stations. However, it&apos;s difficult to sift through all of the data that comes in 
+                        and issues can be hard to notice quickly. The concept for SQUAC was to develop 
+                        a system that could take real time data and let seismologists know when something 
+                        went wrong. For example, data latency for a specific station was unusually low. 
+                        SQUAC would be like a canary squawking at miners when there was a dangerous level 
+                        of toxic gas.
+                    </p>
+                </section>
+                <h2>The Solution</h2>
+                <section>
+                    <p>
+                        SQUAC works by having an admin creates groups of seismic stations, metrics, and 
+                        groups of metrics. This results in specific station groups and metric groups. The 
+                        user would then be able to login to the main system and see a group of metrics for 
+                        a specific station group.
+                    </p>
+                    <p>
+                        I created interface designs for those four different processes. They included;
+                    </p>
+                    <ul>
+                        <li>Creating Station Groups</li>
+                        <li>Creating Metric Groups</li>
+                        <li>Creating Metrics</li>
+                        <li>Viewing the Metrics and Station Groups</li>
+                    </ul>
+                    </section>
+                    <h3>Creating Station Groups</h3>
+                    <section>
+                        <div class="column">
+                    <p>
+                        Some background first, a station can contain one to multiple channels. Channels 
+                        are denoted by three letter names and measure different things - some may look 
+                        for large movement (by the ocean) and some measure very small movements (by volcanoes).
+                    </p>
+                    <p>
+                        This interface allows a user to filter based on the station and the channel name. The 
+                        user would filter down a list of available stations and then add those stations to a 
+                        group, name the group, and add a description. 
+                    </p>
+                    </div>
+                    <div class="column">
+                        <img src="SQUAC/stationGroups.png" alt="Screen where station groups are created" />
+                    </div>
+                    </section>
+                    <h3>Creating Metric Groups</h3>
+                    <section>
+                        <div class="column">
+                    <p>
+                        A user can filter through already created metrics by typing in keywords. They can 
+                        then select metrics to create a group, name the group, and add a description.
+                    </p>
+                    </div>
+                    <div class="column">
+                        <img src="SQUAC/metricGroups.png" alt="Screen where metric groups are created" />
+                    </div>
+                    </section>
+                    <h3>Creating Metrics</h3>
+                    <section>
+                        <div class="column">
+                    <p>
+                        To create a metric, a user will enter a name, description, the unit the metric uses 
+                        like time or distance, the source, and the upper and lower threshold. Once saved, 
+                        the metric can be used when creating metric groups.
+                    </p>
+                    </div>
+                    <div class="column">
+                        <img src="SQUAC/metric.png" alt="Screen where metrics are created" />
+                    </div>
+                    </section>
+                    <h3>Viewing the Metrics and Station Groups</h3>
+                    <section>
+                    <div class="column">
+                    <p>
+                        The main page has a table of stations or channels, depending on the selected view, 
+                        along the left side and metrics along the top. Each cell has a number and a color - 
+                        green if the metric is within the upper and lower thresholds, red if it is outside, 
+                        and grey if it doesn&apos;t exist. Clicking on any of the stations or channels, metrics, 
+                        or data cells, will bring up a graph in a popup that allows for more granular 
+                        filtering of information.
+                    </p>
+                    <img src="SQUAC/details.png" alt="detail page of stations with specific graphs for all metrics" />
+                    </div>
+                    <div class="column">
+                        <img src="SQUAC/home.png" alt="home page for SQUAC. Shows data table with statuses" />
+                    </div>
+                </section>
+                <h2>The Process</h2>
+                <section>
+                    <p>
+                        Over two months I went through research and requirement gathering, as well as iterative design.
+                    </p>
+                </section>
+                <section>
+                    <h3>Research &amp; Requirement Gathering</h3>
+                    <p>
+                        I started out by learning the overall flow for the whole system. I had to understand 
+                        how seismic station groups were created, and by who. I also had to understand how 
+                        those station groups related to metric groups or if they even needed to be related. 
+                    </p>
+                    <p>
+                        In order to find out the answers to these questions, I talked with the two developers 
+                        who had previously completed a rough outline of the users and the steps that the users 
+                        would take. They explained all of the steps and allowed me to ask clarifying questions. 
+                        I also talked to some of the seismologists to understand what information they wanted 
+                        to be able to view.
+                    </p>
+                    </section>
+                    <section>
+                    <h3>Iterative Design</h3>
+                    <p>
+                        I completed some sketches based on user feedback, to get an idea of interface layout 
+                        and information that would be displayed. I then worked on creating mockups in adobe 
+                        experience design. During the design phase, I consistently talked with the developers 
+                        to get their opinions. After I had finished a couple iterations I showed some of the 
+                        seismologists who would be using SQUAC, to get their opinions. Most of the seismologists 
+                        didn&apos;t have a lot of critical feedback because they were so happy to have something that 
+                        would show them this information.
+                    </p>
+                    <p>
+                        After receiving feedback from the developers and seismologists, I added additional 
+                        functionalities, and I added additional information. For example, some of the information 
+                        that I added was the upper and lower thresholds that determine if a metric is good (green) 
+                        or bad (red).
+                    </p>
+                </section>
+                <h2>Reflection</h2>
+                <section>
+                    <p>
+                        I completed a prototype that had all of the functionalities plus more. After I had 
+                        presented this design, the developers had to talk about what steps or iterations 
+                        they&apos;d go through while on the road to fully completing this system. They couldn&apos;t 
+                        put one hundred percent effort into this system because there is two of them and 
+                        multiple projects that they work on. If I were to go back, I would design the system 
+                        in steps to make it easier for the developers to plan out the road map for this project.
+                    </p>
+                    <p>
+                        For this project, I did not have a good understanding of ADA requirements. I would like 
+                        to go back through this project, if time allows, and work on ADA compliance. I also feel 
+                        as though the design could be cleaner and more polished. This comes from a lack of 
+                        experience with UI design as I normally design with a group of others. With practice 
+                        and experimentation I think I could push this design further but I didn&apos;t have as much 
+                        time as I would have liked.
+                    </p>
+                </section>
+                <h2>More Projects</h2>
+                <section id="projects">
+                    <div class="container">
+                        <a href="lowes.html">
+                        <img src="covers/mustangularCover.png" alt="Mustangular" class="image">
+                        <div class="overlay">
+                            <h1 class="text">Mustangular UI Design</h1>
+                        </div>
+                        </a>
+                    </div>
+                    <div class="container">
+                        <a href="mustangular.html">
+                        <img src="covers/accessify.png" alt="Accessify" class="image">
+                        <div class="overlay">
+                            <h1 class="text">Accessify UI Design</h1>
+                        </div>
+                        </a>
+                    </div>
+                </section>
+                
+            </main>
+            <footer id="footer">
+                <p id="footer">Hello you&apos;re @ <strong>SQUAC</strong></p>
+                <div id="made">
+                    <img id="heart" src="icons/heart.png" alt="heart" />
+                    <div id="cursive">made with love</div>
+                </div>
+                <div id="socials">
+                    <a href="mailto:natalie.michelle.chow@gmail.com" target="_blank"> <img src="icons/email.png" alt="email" /> </a>
+                    <a href="https://www.linkedin.com/in/nmcdesign/" target="_blank"> <img src="icons/Linkedin.png" alt="linkedin" /> </a>
+                    <a href="https://www.instagram.com/natc66/" target="_blank"> <img src="icons/instagram.png" alt="instagram" /> </a>
+                </div>
+            </footer>
+        </body>
+    </html>
