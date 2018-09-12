@@ -4,6 +4,11 @@
     let current = 0;
         
     let allImages = [
+    
+    {class:"graphic", img:"graphic/pnsnCardF.png", alt:"Front of PNSN business card with green vector mountain", caption:"Adobe Illustrator - May 2018"},
+    {class:"graphic", img:"graphic/pnsnCardB.png", alt:"Back of PNSN business card with green vector mountain", caption:"Adobe Illustrator - May 2018"},
+    {class:"graphic", img:"graphic/seismoSticker.png", alt:"Sticker with important information about seismo stations", caption:"Adobe Illustrator - May 2018"},         
+        
     {class:"art", img:"art/Lava.png", alt:"Live Love Lava written on banner over mountain", caption:"Adobe Illustrator - May 2018"},
     {class:"art", img:"art/Faults.png", alt:"Everyone has their faults written on banner over desert with crack", caption:"Adobe Illustrator - May 2018"},
     {class:"art", img:"art/Shook.png", alt:"Etch a sketch with seismogram lines and shook written on it", caption:"Adobe Illustrator - May 2018"},
