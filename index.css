@@ -6,22 +6,27 @@
 }
 
 p {
-    font-size: 40px;
+    font-size: 25px;
     font-family: "source sans pro", sans-serif;
 }
 
 h1 {
     font-size: 60px;
     font-family: "source sans pro", sans-serif;
+    color: white;
 }
 
-h2 {
+#cursive {
     font-family: shoreline-script;
-    font-size: 40px;
+    font-size: 24px;
 }
 
 .hidden {
     visibility: hidden;
+}
+
+.hide {
+    display: none;
 }
 
 .menu {
@@ -112,27 +117,16 @@ footer {
     align-items: center;
 }
 
-footer #made {
-    display: flex;
-}
-
-#heart {
-    padding-top: 50px;
-    height: 50px;
-    width: auto;
-    padding-right: 20px;
-}
-
 #socials img {
     height: 100%;
     padding-left: 30px;
 }
 
 #socials {
-    height: 50px;
+    height: 30px;
 }
 
-main {
+main, #showMore {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -178,5 +172,12 @@ main {
 .container:hover .overlay {
   bottom: 0;
   height: 100%;
+}
+
+#seeAll {
+    color: #707070;
+    font-size: 18px;
+    text-align: center;
+
 }
 
