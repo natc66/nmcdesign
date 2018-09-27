@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>home</title>
+            <link type="text/css" href=project.css rel="stylesheet" />
+            <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+            <script src="nav.js"></script>
+            <script src="index.js"></script>
+        </head>
+        <body>
+            <nav id="1" class="sticky">
+                <a href="index.html"><img id="logo" src="icons/w_logo.png" alt="NMC Design Logo" /></a>
+                <img id="open" src="icons/hamburger.png" alt="Hamburger Menu" />
+                <div id="myNav" class="menu">
+                    <div id="top">
+                        <img src="icons/nmc.png" alt="natalie m chow" />
+                        <a href="javascript:void(0)" id="close">&times;</a>
+                    </div>
+                    <div class="menu-content">
+                        <a href="index.html">Home</a>
+                        <a href="etc.html">Etc</a>
+                        <a href="about.html">About</a>
+                        <a href="experience.html">Experience</a>
+                    </div>
+                </div>
+            </nav>
+            <nav class="hidden" id="2">
+                <a href="index.html"><img id="logo" src="icons/logo.png" alt="NMC Design Logo" /></a>
+                <img id="open" src="icons/hamburger.png" alt="Hamburger Menu" />
+                <div id="myNav" class="menu">
+                    <div id="top">
+                        <img src="icons/nmc.png" alt="natalie m chow" />
+                        <a href="javascript:void(0)" id="close">&times;</a>
+                    </div>
+                    <div class="menu-content">
+                        <a href="index.html">Home</a>
+                        <a href="etc.html">Etc</a>
+                        <a href="about.html">About</a>
+                        <a href="experience.html">Experience</a>
+                    </div>
+                </div>
+            </nav>
+
+            <main>
+                <h1>reallyBot</h1>
+                <h2>The Overview</h2>
+                <section>
+                    <p>
+                        November - December 2016 <br />Completed for Intro to 
+                        Python Class (HCDE 310) <br />Role: Developer
+                    </p>
+                </section>
+                <h2>The Problem</h2>
+                <section>
+                    <p>
+                        During my <a href="womenInSSB.html" target="_blank">Research 
+                        on Women in the Super Smash Brothers Community</a>, I learned that 
+                        many women feel uncomfortable on online platforms because of 
+                        negative and toxic comments. Specifically, many women pointed 
+                        to the popular online streaming platform, Twitch. 
+                    </p>
+                    <p>
+                        The current ways that Twitch deals with negativity and toxicity, 
+                        is moderators, and allowing streamers to ban words. Allowing streamers 
+                        to ban words on their channels only goes so far and there are a couple 
+                        issues with moderators. Moderators are often just friends of the 
+                        streamer, and don't have a lot of resources to look at or training. 
+                        It's also difficult to keep up when there are a lot of people in the chat.
+                    </p>
+                </section>
+                <h2>The Solution</h2>
+                <section>
+                    <p>
+                        I created a bot is able to connect to a Twitch channel and moderate the chat 
+                        by monitoring the chat messages and sending them through the google natural 
+                        language API. It then stores the information of the user if the message is 
+                        determined to be negative. If the user reaches 5, 10, or 15 negative messages, 
+                        they are timed out for 10 minutes. If the user reaches 20 negative messages, 
+                        they are banned from the channel.
+                    </p>
+                    <a class="buttons" href="https://drive.google.com/open?id=1lLhhyb2jqyTSIXrdhbUbx1hp1s3wcFQS" 
+                    target="_blank"><button>Code</button></a>
+                    <a class="buttons" href="https://drive.google.com/open?id=1RO_f_txfqhF7oPvkQBdTvBl0q1v91oYQ" 
+                    target="_blank"><button>API's</button></a>
+                </section>
+                <h2>The Process</h2>
+                <section>
+                    <p>
+                        Over one month I went through ideation, coding, and presenting.
+                    </p>
+                </section>
+                <section>
+                    <h3>Ideation</h3>
+                    <p>
+                        I learned about sentiment analysis API's during a hackathon I previously attended and 
+                        created <a href="myndful.html" target="_blank">Myndful</a>. That got me thinking about 
+                        how that could be used to filter out negative comments. I decided I wanted to combine 
+                        the google natural language API (sentiment analysis) and the Twitch.tv api.                    
+                    </p>
+                </section>
+                <section>
+                    <h3>Coding</h3>
+                    <p>
+                        The first step was connecting to the Twitch server and receiving data from a specific 
+                        channel. One problem I ran into was making sure the channel name was spelled correctly 
+                        and had a # in front of the name. This problem stumped me for awhile and I had to ask 
+                        a friend for help on identifying the problem.
+                    </p>
+                    <p>
+                        The second step was connecting to the google natural language API. This proved to be 
+                        difficult as I found many different instructions on how to connect. Eventually I 
+                        worked out how to connect by using a variety of different instructions.
+                    </p>
+                    <p>
+                        The third step was to take the messages from the Twitch channel and feed them 
+                        through the natural language API. The problem with this was I had to account 
+                        for messages from the server that were not chat messages such as command messages.
+                    </p>
+                    <p>
+                        Finally, I had to send a command to Twitch chat to ban or time out a user. This 
+                        was not too difficult as there were many resources online.
+                    </p>
+                    </section>
+                    <section>
+                    <h3>The Presentation</h3>
+                        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQxsGLnaNK42KTZOIjbqlk_4-Koo-GxH5saTwHo1I7PiDJLTLf3DuUfvV2sNBBd7yCxDc8GXUptrX8g/embed?start=true&loop=true&delayms=7000"
+                        frameborder="0" width="960" height="569" allowfullscreen="true" 
+                        mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                </section>
+                <h2>Reflection</h2>
+                <section>
+                    <p>
+                        I completed a prototype that had all of the functionalities 
+                        which I'm very proud of. I'm not the best at programming and this
+                        was my first experience with python. The code is definitely messy
+                        and unorganized, but hey! it works.
+                    </p>
+                    <p>
+                        If I was to do this project over I would try to have the code be more
+                        organized. I'd also want to create all of the functionalities I initially
+                        planned on creating. For example, I wanted the bot to be able to private
+                        message people to let them know why they were timed out or banned.
+                    </p>
+                </section>
+                <h2>More Projects</h2>
+                <section id="projects">
+                    <div class="container">
+                        <a href="lowes.html">
+                            <img src="covers/mustangularCover.png" alt="Mustangular" class="image">
+                            <div class="overlay">
+                                <h1 class="text">Mustangular UI Design</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="container">
+                        <a href="squac.html">
+                            <img src="covers/squacCover.png" alt="SQUAC" class="image">
+                            <div class="overlay">
+                                <h1 class="text">SQUAC UI Design</h1>
+                        </div>
+                        </a>
+                    </div>
+                        </a>
+                    </div>
+                </section>
+                
+            </main>
+            <footer id="footer">
+                <p>Hello you're @ <strong>reallyBot</strong></p>
+                <div id="cursive">made with love</div>
+                <div id="socials">
+                    <a href="mailto:natalie.michelle.chow@gmail.com" target="_blank"> <img src="icons/email.png" alt="email" /> </a>
+                    <a href="https://www.linkedin.com/in/nmcdesign/" target="_blank"> <img src="icons/Linkedin.png" alt="linkedin" /> </a>
+                    <a href="https://www.instagram.com/natc66/" target="_blank"> <img src="icons/instagram.png" alt="instagram" /> </a>
+                </div>
+            </footer>
+        </body>
+    </html>
