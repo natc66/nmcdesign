@@ -314,8 +314,8 @@ button:hover {
 }
 
 .mustangular img {
-    height: 30%;
-    width: 30%;
+    height: 45%;
+    width: 45%;
     padding-right: 5%;
     margin-bottom: 0%;
     padding-bottom: 0%;
@@ -325,6 +325,10 @@ button:hover {
     height: 30%;
     width: 30%;
     padding-right: 5%;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
+}
+
+.couch img {
+    height: 30%;
+    width: 30%;
+    padding-right: 5%;
 }
