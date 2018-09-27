@@ -6,7 +6,7 @@
 }
 
 #footer {
-    font-size: 40px;
+    font-size: 24px;
     font-family: "source sans pro", sans-serif;
 }
 
@@ -24,7 +24,7 @@ h1 {
 
 #cursive {
     font-family: shoreline-script;
-    font-size: 40px;
+    font-size: 24px;
 }
 
 a {
@@ -64,6 +64,19 @@ h3 {
 
 .hidden {
     visibility: hidden;
+}
+
+.hide {
+    display: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 2%;
+  background-color: rgb(255,165,31);
+  background-color: rgba(255,165,31,0.9);
 }
 
 .menu {
@@ -130,21 +143,19 @@ nav {
 }
 
 #logo {
-    margin-left: 1%;
-    width: 180px;
-    height: 100px;
+    margin-left: 5%;
+    width: 13%;
+    height: auto;
 }
 
 #open {
     margin-right: 2%;
-    width: 60px;
-    height: 40px;
+    width: 5%;
+    height: auto;
     cursor: pointer;
 }
 
 footer {
-    padding-top: 0.1%;
-    padding-bottom: 0.1%;
     margin-top: 2%;
     margin-bottom: 0%;
     background-color: #36A320;
@@ -154,24 +165,13 @@ footer {
     align-items: center;
 }
 
-footer #made {
-    display: flex;
-}
-
-#heart {
-    padding-top: 50px;
-    height: 50px;
-    width: auto;
-    padding-right: 20px;
-}
-
 #socials img {
     height: 100%;
     padding-left: 30px;
 }
 
 #socials {
-    height: 50px;
+    height: 30px;
 }
 
 main {
@@ -289,17 +289,18 @@ button:hover {
     padding-top: 2%;
 }
 
-.emote, .mustangular {
+.emote, .mustangular, .myndful, .couch {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2%;
     margin-bottom: 0%;
     padding-bottom: 0%;
+    height: 60%;
 }
 
 .emote img {
-    height: 60%;
+    height: 100%;
     padding-right: 5%;
     margin-bottom: 0%;
     padding-bottom: 0%;
