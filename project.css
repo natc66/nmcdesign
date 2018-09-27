@@ -296,7 +296,7 @@ button:hover {
     margin-top: 2%;
     margin-bottom: 0%;
     padding-bottom: 0%;
-    height: 60%;
+    height: 30%;
 }
 
 .emote img {
@@ -313,7 +313,7 @@ button:hover {
 }
 
 .mustangular img {
-    height: 25%;
+    height: 100%;
     padding-right: 5%;
     margin-bottom: 0%;
     padding-bottom: 0%;
