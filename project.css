@@ -333,9 +333,14 @@ button:hover {
     padding-right: 5%
 }
 
+#myndful2 {
+    height: 90%;
+    width: 90%
+}
+    
 #myndful3 img {
-    height: 50%;
-    width: 50%;
+    height: 15%;
+    width: 15%;
     padding-right: 5%;
 }
     
