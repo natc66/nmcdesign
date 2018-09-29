@@ -112,17 +112,6 @@ footer {
     align-items: center;
 }
 
-footer #made {
-    display: flex;
-}
-
-#heart {
-    padding-top: 50px;
-    height: 50px;
-    width: auto;
-    padding-right: 20px;
-}
-
 #socials img {
     height: 100%;
     padding-left: 30px;
@@ -131,7 +120,6 @@ footer #made {
 #socials {
     height: 50px;
 }
-
 
 .hide {
     display: none;
