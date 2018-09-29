@@ -143,8 +143,6 @@ nav {
 }
 
 footer {
-    padding-top: 0.1%;
-    padding-bottom: 0.1%;
     margin-top: 2%;
     margin-bottom: 0%;
     background-color: #36A320;
@@ -154,24 +152,13 @@ footer {
     align-items: center;
 }
 
-footer #made {
-    display: flex;
-}
-
-#heart {
-    padding-top: 50px;
-    height: 50px;
-    width: auto;
-    padding-right: 20px;
-}
-
 #socials img {
     height: 100%;
     padding-left: 30px;
 }
 
 #socials {
-    height: 50px;
+    height: 30px;
 }
 
 .insta {
