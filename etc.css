@@ -5,6 +5,11 @@
     src: url(shorelines.otf);
 }
 
+#footer {
+    font-size: 24px;
+    font-family: "source sans pro", sans-serif;
+}
+
 p {
     font-size: 40px;
     font-family: "source sans pro", sans-serif;
@@ -15,9 +20,9 @@ h1 {
     font-family: "source sans pro", sans-serif;
 }
 
-h2 {
+#cursive {
     font-family: shoreline-script;
-    font-size: 40px;
+    font-size: 24px;
 }
 
 .hidden {
@@ -101,8 +106,6 @@ nav {
 }
 
 footer {
-    padding-top: 0.1%;
-    padding-bottom: 0.1%;
     margin-top: 2%;
     margin-bottom: 0%;
     background-color: #36A320;
@@ -118,7 +121,7 @@ footer {
 }
 
 #socials {
-    height: 50px;
+    height: 30px;
 }
 
 .hide {
