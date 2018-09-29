@@ -322,14 +322,14 @@ button:hover {
 }
 
 .myndful img {
-    height: 10%;
-    width: 10%;
-    margin-right: 5%;
+    height: 25%;
+    width: 25%;
+    padding-right: 5%;
 }
 
 .myndful1 img {
-    height: 45%;
-    width: 45%;
+    height: 25%;
+    width: 25%;
 }
 
 .couch img {
