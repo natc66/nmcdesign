@@ -6,7 +6,7 @@
 }
 
 #footer {
-    font-size: 40px;
+    font-size: 24px;
     font-family: "source sans pro", sans-serif;
 }
 
@@ -27,7 +27,7 @@ h1 {
 
 #cursive {
     font-family: shoreline-script;
-    font-size: 40px;
+    font-size: 24px;
 }
 
 a {
@@ -173,27 +173,13 @@ nav {
 }
 
 footer {
-    padding-top: 0.1%;
-    padding-bottom: 0.1%;
     margin-top: 2%;
     margin-bottom: 0%;
     background-color: #36A320;
-    color: white;
+    color: #fff;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-footer #made {
-    display: flex;
-    color: white;
-}
-
-#heart {
-    padding-top: 50px;
-    height: 50px;
-    width: auto;
-    padding-right: 20px;
 }
 
 #socials img {
@@ -202,7 +188,7 @@ footer #made {
 }
 
 #socials {
-    height: 50px;
+    height: 30px;
 }
 
 main {
