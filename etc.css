@@ -10,14 +10,16 @@
     font-family: "source sans pro", sans-serif;
 }
 
-p {
-    font-size: 40px;
+p, ul {
+    font-size: 24px;
     font-family: "source sans pro", sans-serif;
 }
 
 h1 {
     font-size: 60px;
     font-family: "source sans pro", sans-serif;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 #cursive {
