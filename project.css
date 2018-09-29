@@ -289,7 +289,7 @@ button:hover {
     padding-top: 2%;
 }
 
-.emote, .mustangular, .myndful, #myndful1, myndful3, .couch {
+.emote, .mustangular, .myndful, #myndful1, #myndful3, .couch {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -333,6 +333,11 @@ button:hover {
     padding-right: 5%
 }
 
+#myndful3 img {
+    height: 100%;
+    width: auto;
+}
+    
 .couch img {
     height: 30%;
     width: 30%;
