@@ -289,7 +289,7 @@ button:hover {
     padding-top: 2%;
 }
 
-.emote, .mustangular, .myndful, #myndful1, #myndful3, .couch, #couch2, #couch4 {
+.emote, .mustangular, .myndful, #myndful1, #myndful3, .couch, #couch3, #couch5 {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -351,14 +351,19 @@ button:hover {
 }
 
 #presketch1 {
-    height: 90%;
-    width: 90%
+    height: 70%;
+    width: 70%
 }
 
 #couch1 img {
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 
 #couch2 img {
+    height: 70%;
+    width: 70%
+}
+
+#couch3 {
     
 }
