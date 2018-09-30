@@ -364,6 +364,8 @@ button:hover {
     width: 70%
 }
 
-#couch3 {
-    
+#couch3 img{
+    height: 25%;
+    width: 25%;
+    padding-right: 5%;
 }
