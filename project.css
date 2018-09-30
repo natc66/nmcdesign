@@ -289,7 +289,7 @@ button:hover {
     padding-top: 2%;
 }
 
-.emote, .mustangular, .myndful, #myndful1, #myndful3, .couch, #couch3, #couch5, .couch6 {
+.emote, .mustangular, .myndful, #myndful1, #myndful3, .couch, #couch3, .couch5, .couch6 {
     display: flex;
     margin-left: auto;
     margin-right: auto;
@@ -377,3 +377,7 @@ button:hover {
     padding-right: 5%;
 }
 
+.couch5 {
+    height: 45%;
+    width: 45%;
+}
