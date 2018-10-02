@@ -82,6 +82,17 @@ h1 {
   }
 }
 
+#socialnav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#socialnav img {
+    height: 30px;
+}
+
 #top img {
     height: 100px;
     margin-left: 10%;
