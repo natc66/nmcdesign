@@ -101,6 +101,17 @@ h3 {
     font-weight: 700;
 }
 
+#socialnav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#socialnav img {
+    height: 30px;
+}
+
 .menu #close {
     position: absolute;
     top: 0px;
