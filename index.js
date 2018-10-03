@@ -20,6 +20,7 @@
     
     function showMore () {
         $("seeAll").classList.add("hidden");
+        createLink("emote.html", "Emote UI Design", "covers/emoteCover.png")
         createLink ("reallyBot.html", "reallyBot Code", "covers/reallyBot.png");
         createLink ("myndful.html", "Myndful UI Design", "covers/myndful.png");
         createLink ("womenInSSB.html", "Women in SSB Research", "covers/womengaming.png");
