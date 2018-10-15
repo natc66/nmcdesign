@@ -19,8 +19,10 @@
     }
     
     function showMore () {
-        $("seeAll").classList.add("hidden");
-        createLink("emote.html", "Emote UI Design", "covers/emoteCover.png")
+        //Change it so that instead of just hiding it changes to "show less" and will hide the new projects
+        $("seeAll").textContent = "See Less";
+        $("seeAll").onclick = showLess;
+        createLink("emote.html", "Emote UI Design", "covers/emoteCover.png");
         createLink ("reallyBot.html", "reallyBot Code", "covers/reallyBot.png");
         createLink ("myndful.html", "Myndful UI Design", "covers/myndful.png");
         createLink ("womenInSSB.html", "Women in SSB Research", "covers/womengaming.png");
@@ -52,5 +54,17 @@
         div.appendChild(a);
         $("showMore").appendChild(div);
     }
+    
+    function showLess () {
+        $("seeAll").textContent = "See More";
+        $("seeAll").onclick = showMore2;
+        $("showMore").classList.add("hide");
+    }
+    
+    function showMore2 () {
+        $("seeAll").textContent = "See Less";
+        $("seeAll").onclick = showLess;
+        $("showMore").classList.remove("hide");
+    }
+    
 }) ();
-
