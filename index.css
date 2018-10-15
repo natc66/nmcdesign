@@ -26,28 +26,27 @@ h1 {
 }
 
 .hide {
-    display: none;
+    display: none !important;
 }
 
 .menu {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
+    height: 0%;
+    width: 100%;
+    position: fixed; 
+    z-index: 1; 
     left: 0;
+    top: 0;
+    background-color: rgb(25,150,0);
+    background-color: rgba(25,150,0, 0.9);
     overflow-x: hidden;
-    transition: 0.5s;
-    background-color: rgb(54,163,32);
-    background-color: rgba(54,163,32, 0.9);
-}
+    transition: 0.5s;}
 
 .menu-content {
     position: relative;
-    top: 10%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
+    top: 10%; 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px; 
 }
 
 .menu a {
@@ -71,15 +70,6 @@ h1 {
     font-size: 100px;
 }
 
-@media screen and (max-height: 450px) {
-  .menu a {font-size: 20px}
-  .menu #close {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-  }
-}
-
 #socialnav {
     display: flex;
     justify-content: space-around;
@@ -89,6 +79,15 @@ h1 {
 
 #socialnav img {
     height: 30px;
+}
+
+@media screen and (max-height: 450px) {
+  .menu a {font-size: 20px}
+  .menu #close {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
 }
 
 #top img {
