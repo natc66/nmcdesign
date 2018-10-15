@@ -1,12 +1,12 @@
     function openMenu () {
-        $("myNav").style.width = "100%";
+        $("myNav").style.height = "100%";
         toggleElements();
         $("close").onclick = closeMenu;
     }
     
     function closeMenu () {
         toggleElements();
-        $("myNav").style.width = "0%";
+        $("myNav").style.height = "0%";
     }
     
     function toggleElements () {
