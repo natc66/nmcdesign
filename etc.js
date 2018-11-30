@@ -4,10 +4,12 @@
     let current = 0;
         
     let allImages = [
-    
+    {class:"graphic", img:"graphic/pnsnSticker.png", alt:"PNSN sticker with a green Mount Ranier fading into the background", caption:"Adobe Illustrator - November 2018"},        
     {class:"graphic", img:"graphic/pnsnCardF.png", alt:"Front of PNSN business card with green vector mountain", caption:"Adobe Illustrator - May 2018"},
+    
     {class:"graphic", img:"graphic/pnsnCardB.png", alt:"Back of PNSN business card with green vector mountain", caption:"Adobe Illustrator - May 2018"},
-    {class:"graphic", img:"graphic/seismoSticker.png", alt:"Sticker with important information about seismo stations", caption:"Adobe Illustrator - May 2018"},         
+    {class:"graphic", img:"graphic/normal_squacLogo_rgb.png", alt:"Logo for SQUAC. The C is a birds beak", caption:"Adobe Illustrator - May 2018"},
+    {class:"graphic", img:"graphic/bird_square_rgb.png", alt:"Square abbreviated logo for SQUAC. A blue square with the birds beak", caption:"Adobe Illustrator - May 2018"},
         
     {class:"art", img:"art/Lava.png", alt:"Live Love Lava written on banner over mountain", caption:"Adobe Illustrator - May 2018"},
     {class:"art", img:"art/Faults.png", alt:"Everyone has their faults written on banner over desert with crack", caption:"Adobe Illustrator - May 2018"},
