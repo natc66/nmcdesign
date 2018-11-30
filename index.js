@@ -25,7 +25,6 @@
         createLink("eventbrite.html", "Eventbrite Usability Testing", "covers/eventbrite.png");
         createLink ("reallyBot.html", "reallyBot Code", "covers/reallyBot.png");
         createLink("squac.html", "SQUAC UI Design", "covers/squacCover.png");
-        createLink ("myndful.html", "Myndful UI Design", "covers/myndful.png");
         createLink ("womenInSSB.html", "Women in SSB Research", "covers/womengaming.png");
         createLink ("transformingCouch.html", "Transforming Couch Design", "covers/couch.png");
     }
