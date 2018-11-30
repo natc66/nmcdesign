@@ -66,8 +66,8 @@
     {class:"photo", img:"photo/kaitlyn6.jpg", alt:"girl smiling at camera with yellow trees and blue mountains in background", caption:"Snoqualmie - August 2016"},
     
     {class:"art", img:"art/girlNeck.jpg", alt:"black shadows on a womans neck with red lips", caption:"Adobe Illustrator - July 2016"},
-    {class:"art", img:"art/smashSisters.jpg", alt:"All female super smash brothers characters in pink and purple", caption:"Adobe Illustrator - July 2016"},
     {class:"art", img:"art/strawberry.jpg", alt:"Original character with bright pink hair, a crop top with daisys and a skirt that goes from blue to pink", caption:"Adobe Illustrator - July 2016"},
+    {class:"art", img:"art/smashSisters.jpg", alt:"All female super smash brothers characters in pink and purple", caption:"Adobe Illustrator - July 2016"},
     
     {class:"art", img:"art/stitches.jpg", alt:"Stitch face turnips (ssbm) and flowers surround words bitches get stitches", caption:"Adobe Illustrator - June 2016"},
     {class:"art", img:"art/watercolor.jpg", alt:"silhouette of girl in the rain by cars driving", caption:"Watercolor, Acrylic Paint - March 2016"},
