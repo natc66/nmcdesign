@@ -55,9 +55,9 @@
     
     {class:"art", img:"art/vulfpeck.jpg", alt:"Poster of Vulfpeck band members in blue, purple, and red", caption:"Adobe Illustrator - December 2016"},
     {class:"art", img:"art/dreamBig.jpg", alt:"Little boy looking at space poster holding fox and falco stuffed animals (starfox)", caption:"Adobe Illustrator - October 2016"},
-    {class:"art", img:"art/peach.jpg", alt:"girl with pink hair and overalls who wants to be like princess peach (mario)", caption:"Adobe Illustrator - August 2016"},
-    
     {class:"photo", img:"photo/kaitlyn1.jpg", alt:"girl laughing in front of bush", caption:"Snoqualmie - August 2016"},
+    
+    {class:"art", img:"art/peach.jpg", alt:"girl with pink hair and overalls who wants to be like princess peach (mario)", caption:"Adobe Illustrator - August 2016"},
     {class:"photo", img:"photo/kaitlyn2.jpg", alt:"girl looking down and to the side in front of bush", caption:"Snoqualmie - August 2016"},
     {class:"photo", img:"photo/kaitlyn3.jpg", alt:"girl with arms open and smiling with eyes closed", caption:"Snoqualmie - August 2016"},
     
