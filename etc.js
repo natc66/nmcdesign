@@ -25,8 +25,8 @@
     {class:"art", img:"art/Shook.png", alt:"Etch a sketch with seismogram lines and shook written on it", caption:"Adobe Illustrator - May 2018"},
     
     {class:"art", img:"art/Pooh.png", alt:"Pooh running out of honey saying oh shit", caption:"Adobe Illustrator - April 2018"},
-    {class:"graphic", img:"graphic/Noni.jpg", alt:"Logo for Noni a 3D menu app", caption:"Adobe Illustrator - April 2018"},
     {class:"graphic", img:"graphic/UDistrict.jpg", alt:"Poster for University District street fair", caption:"Adobe Illustrator - March 2018"},
+    {class:"graphic", img:"graphic/Noni.jpg", alt:"Logo for Noni a 3D menu app", caption:"Adobe Illustrator - April 2018"},
     
     {class:"art", img:"art/290_6.jpg", alt:"nude figure lying down", caption:"Charcoal - March 2018"},
     {class:"art", img:"art/290_5.jpg", alt:"nude figure sitting straight on", caption:"Charcoal - February 2018"},
