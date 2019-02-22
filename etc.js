@@ -8,8 +8,8 @@
     {class:"graphic", img:"graphic/pnsnSticker.png", alt:"PNSN sticker with a green Mount Ranier fading into the background", caption:"Adobe Illustrator - November 2018"},    
     {class:"art", img:"art/400.jpg", alt:"6 Prints representing my relationship with my biracial identity", caption:"Adobe Illustrator, Colored Pencil, Oil Ink, Pen - November 2018"},        
 
-    {class:"art", img:"art/duck.jpg", alt:"Falco dressed in Oregon State University colors", caption:"Adobe Illustrator - February 2019"},
     {class:"graphic", img:"graphic/remeDI_square.png", alt:"Square logo for smash tournament remeDI", caption:"Adobe Illustrator - October 2018"},        
+    {class:"art", img:"art/duck.jpg", alt:"Falco dressed in Oregon State University colors", caption:"Adobe Illustrator - February 2019"},
     {class:"graphic", img:"graphic/remeDI_fbBanner.png", alt:"facebook banner for smash tournament remeDI", caption:"Adobe Illustrator - October 2018"},
 
     {class:"graphic", img:"graphic/smashclub.png", alt:"Logo for smash club at UW", caption:"Adobe Illustrator - September 2018"},
