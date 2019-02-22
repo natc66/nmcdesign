@@ -18,9 +18,9 @@
     
     {class:"graphic", img:"graphic/normal_squacLogo_rgb.png", alt:"Logo for SQUAC. The C is a birds beak", caption:"Adobe Illustrator - May 2018"},
     {class:"graphic", img:"graphic/bird_square_rgb.png", alt:"Square abbreviated logo for SQUAC. A blue square with the birds beak", caption:"Adobe Illustrator - May 2018"},
-    {class:"graphic", img:"graphic/PawsLRAStart_Square.jpg", alt:"Square logo for smash tournament Paws LRA Start", caption:"Adobe Illustrator - May 2018"},
-    
     {class:"art", img:"art/Lava.png", alt:"Live Love Lava written on banner over mountain", caption:"Adobe Illustrator - May 2018"},
+
+    {class:"graphic", img:"graphic/PawsLRAStart_Square.jpg", alt:"Square logo for smash tournament Paws LRA Start", caption:"Adobe Illustrator - May 2018"},
     {class:"art", img:"art/Faults.png", alt:"Everyone has their faults written on banner over desert with crack", caption:"Adobe Illustrator - May 2018"},
     {class:"art", img:"art/Shook.png", alt:"Etch a sketch with seismogram lines and shook written on it", caption:"Adobe Illustrator - May 2018"},
     
